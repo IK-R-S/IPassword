@@ -1,5 +1,5 @@
 from flask import Flask, redirect
-from api.ipassword import generate_password
+from .ipassword import generate_password
 
 app = Flask(__name__)
 
