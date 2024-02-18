@@ -1,5 +1,5 @@
 from flask import Flask
-from pypass import generate_password
+from .pypass import generate_password
 
 app = Flask(__name__)
 
