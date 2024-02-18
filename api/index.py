@@ -1,11 +1,11 @@
-from flask import Flask
-from .pypass import generate_password
+from flask import Flask, redirect
+from .ipassword import generate_password
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return {"message": "Pypass API running", "status": 200}
+    return redirect('https://github.com/IK-R-S/IPassword')
 
 @app.route('/about')
 def about():
