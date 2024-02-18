@@ -11,6 +11,10 @@ def home():
 def about():
     return {"PyPass API": "Password generator API for applications"}
 
+@app.route('/generate/')
+def generate_info():
+    return {"message": "insert a number of characters to generate your password", "demo": "https://pypass-api.vercel.app/generate/8"}
+
 @app.route('/generate/<length>')
 def generate(length):
     password = generate_password(length)
