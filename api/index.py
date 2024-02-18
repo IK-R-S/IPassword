@@ -25,7 +25,7 @@ def generate_info(length):
 
 @app.route('/generate/<length>')
 def generate(length):
-    if length > 10000:
+    if int(length) > 10000:
         return {"message": "Wow, try a less number! Are you sure that is a password?", "status": 406}, 406
     else:
         password = generate_password(length)
