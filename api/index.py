@@ -18,18 +18,10 @@ def about():
     return {"IPassword API": "Fast and secure password generator API for applications"}, 200
 
 
-@app.route('/generate/<length>')
-def generate(length):
-    if length > 10000:
-        return {"message": "Wow, try a less number! Are you sure that is a password?", "status": 406}, 406
-    else:
-        password = generate_password(length)
-        return {"password": password, "length":length, "message": "password generated successfully!", "status": 200}, 200
-
-
-@app.route('/generate/<length>')
+@app.route('/generate')
 def generate_info(length):
     return {"message": "pass a number of characters into the endpoint", "demo": "https://ipassword.vercel.app/generate/8"}, 200
+
 
 @app.route('/generate/<length>')
 def generate(length):
