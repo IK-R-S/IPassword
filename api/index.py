@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return {"message": "Pypass API running 🚀", "status": 200}
+    return {"message": "Pypass API running", "status": 200}
 
 @app.route('/about')
 def about():
