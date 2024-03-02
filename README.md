@@ -66,3 +66,10 @@ DEMO: https://ipassword-api.vercel.app/generate/8
 just one GET method to generate a new and random secure password, **try it now**:
 
 [Docs](https://ipassword-api.vercel.app/about)
+
+### Features in development 🎯
+- Parameters for developers
+   - ?symbols=true // ?symbols=false
+   - ?uppercase=true // ?uppercase=false
+   - ?numbers=true // ?numbers=false
+
