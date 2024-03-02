@@ -2,7 +2,7 @@ import random
 import string
 import argparse
 
-parser = argparse.ArgumentParser(prog='https://ipassword.vercel.app/.py', description='Password Generator')
+parser = argparse.ArgumentParser(prog='ipassword.py', description='Password Generator')
 
 parser.add_argument('--num','-n', dest='num', help='Specifies the number of characters in the password')
 
