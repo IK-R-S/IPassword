@@ -17,12 +17,12 @@ def status():
 
 @app.route('/about')
 def about():
-    return {"IPassword API": "Fast and secure password generator API for applications"}, 200
+    return {"name": "IPassword API","about": "Fast and secure password generator API for applications", "demo": "https://ipassword-api.vercel.app/generate/10", "endpoints": {"/status": "app status", "generate/": "generate passwords"},  "status": 200}, 200
 
 
 @app.route('/generate')
 def generate_info(length):
-    return {"message": "pass a number of characters into the endpoint", "demo": "https://ipassword.vercel.app/generate/8"}, 200
+    return {"message": "pass a number of characters into the endpoint", "demo": "https://ipassword-api.vercel.app/generate/10", "status": 200}, 200
 
 
 @app.route('/generate/<length>')
