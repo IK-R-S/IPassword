@@ -7,9 +7,9 @@
 
 Password generator written in Python that generates random passwords with uppercase and lowercase letters, digits, and punctuation.
 
-![Ipassword banner](https://github.com/IK-R-S/IPassword/assets/73291742/6ad3a59a-bd26-4ee3-9163-9e4d0ec13d4f)
+![Ipassword banner](https://github.com/IK-R-S/IPassword/assets/73291742/5c4ec3e9-1184-465b-80be-221ae0106adc)
 
-## Requirements
+## Requirements // CLI APP
 
 Make sure you have Python installed on your system. This script has been tested with Python 3.
 
@@ -38,14 +38,11 @@ Make sure you have Python installed on your system. This script has been tested 
 python ipassword.py --num 16
 ```
 
-## Disclaimer
+# Web app (Online, for everyone!)
 
-The generated passwords are random and may include any combination of uppercase and lowercase letters, digits, and punctuation. Make sure to store your passwords securely.
+![Web app](https://github.com/IK-R-S/IPassword/assets/73291742/31403878-adc3-469c-a7cc-8e9365f78a14)
 
-
-## Web app (Online, for everyone!)
-![image](https://github.com/IK-R-S/IPassword/assets/73291742/58ec0009-978b-4a1b-bceb-70ea88658ff1)
-**Acess now:** https://ipassword-web.vercel.app/ 🔑
+**Acess now:** https://ipassword.vercel.app/ 🔑
 
 
 
