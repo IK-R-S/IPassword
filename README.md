@@ -1,5 +1,7 @@
-![Python](https://img.shields.io/badge/python-3.12-blue)
-![App](https://img.shields.io/badge/application-password_generator-cyan)
+![Python](https://img.shields.io/badge/Python-3.12-cyan)
+![Web](https://img.shields.io/badge/React-expo.io-white)
+![Vercel](https://img.shields.io/badge/Deployment-vercel-black)
+![App](https://img.shields.io/badge/Application-password_generator-blue)
 
 #  IPassword: Fast and secure password generator 🔑
 [✅ Web app online](https://ipassword.vercel.app/)
