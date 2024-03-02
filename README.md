@@ -9,14 +9,17 @@ Password generator written in Python that generates random passwords with upperc
 
 ![Ipassword banner](https://github.com/IK-R-S/IPassword/assets/73291742/5c4ec3e9-1184-465b-80be-221ae0106adc)
 
-## Requirements // CLI APP
+# CLI APP
+Run ipassword on bash or CMD with python and one single line command
+
+## Requirements
 
 Make sure you have Python installed on your system. This script has been tested with Python 3.
 
 ## Usage
 
 1. Clone or download this repository to your computer.
-2. Navigate to the directory where the `ipassword.py` file is located.
+2. Navigate to the directory where the `ipassword.py` file is located. (CLI/ipassword.py)
 3. Run the script by passing the desired number of characters as an argument. For example:
 
    ```bash
