@@ -2,8 +2,8 @@
 ![App](https://img.shields.io/badge/application-password_generator-cyan)
 
 #  IPassword: Fast and secure password generator 🔑
-[✅ Web app online](https://ipassword-web.vercel.app/)
-[✅ See our Free API](https://ipassword.vercel.app/generate/30)
+[✅ Web app online](https://ipassword.vercel.app/)
+[✅ See our Free API](https://ipassword-api.vercel.app/generate/30)
 
 Password generator written in Python that generates random passwords with uppercase and lowercase letters, digits, and punctuation.
 
@@ -52,17 +52,17 @@ The generated passwords are random and may include any combination of uppercase 
 # IPassword API
 Connect your app with a fast and secure password generator
 
-DEMO: https://ipassword.vercel.app/generate/8
+DEMO: https://ipassword-api.vercel.app/generate/8
 
 **How it works:** 
 
-`https://ipassword.vercel.app/generate/<number of characters to create the password>`
+`https://ipassword-api.vercel.app/generate/<number of characters to create the password>`
 
-`https://ipassword.vercel.app/status`
+`https://ipassword-api.vercel.app/status`
 
-`https://ipassword.vercel.app/about`
+`https://ipassword-api.vercel.app/about`
 
 ## A single request, a new password 🪄
 just one GET method to generate a new and random secure password, **try it now**:
 
-[https://ipassword.vercel.app/generate/8](https://ipassword.vercel.app/generate/8)
+[Docs](https://ipassword-api.vercel.app/about)
