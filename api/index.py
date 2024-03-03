@@ -17,7 +17,7 @@ def status():
 
 @app.route('/about')
 def about():
-    return {"name": "IPassword API","about": "Fast and secure password generator API for applications", "demo": "https://ipassword-api.vercel.app/generate/10", "endpoints": {"/status": "app status", "generate/": "generate passwords"},  "status": 200}, 200
+    return {"name": "IPassword API","about": "Fast and secure password generator API for applications", "demo": "https://ipassword-api.vercel.app/generate/10", "endpoints": {"/": "root", "/about": "this endpoint :)", "/status": "app status", "/generate": "generate passwords"},  "status": 200}, 200
 
 
 @app.route('/generate')
